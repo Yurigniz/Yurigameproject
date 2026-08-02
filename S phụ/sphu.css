@@ -1,0 +1,22 @@
+.Navigation {
+    background-color: Red;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 95%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    list-style: none;
+    position: relative ;
+    position : fixed
+}
+li {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    font-size: 24px;
+}

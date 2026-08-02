@@ -1,0 +1,42 @@
+color: màu chử;
+background-color: màu nền;
+border : " kích thước" solid " màu của viền ";
+border-radius: kích thước bo tròn;
+width : chiều dài
+height : chiều cao
+đơn vị dùng kích thước Px
+list-style : phong cách  của danh sách
+text decoration : cách trang trí của chữ
+<a href="Link">
+    <img src="Ảnh" alt="Mô tả hình ảnh">
+</a>
+<img class="Avatar"  src="482129994_949312524045211_8853617758996641577_n.jpg" alt="Ảnh của Tài"
+Shift + alt + F ( định dạng trong 1 dòng )
+ctrl + Shift + P rồi bấm format document, configure, bấm prettier ( định dạng tất cả )
+chèn link ah3, Ảnh, nhấn giữ ảnh vô rồi ấn shift
+Inine css : prior 1
+Internal css Prior 2
+External css prior 3
+Justify-content : căn ngang phần tử ( item ) trong flexbox
+ align-items : căn dọc
+display : flex -> mở flexbox
+flex-start : các hạng mục được sắp về phía bên trái của hộp chứa
+flex-end : các hạng mục được sắp về phía bên phải của hộp chứa
+center : các hạng mục dược sắp xếp ở giữa chính của hộp chứa
+space-between : các hạng mục đc trình bày với khoảng cách bằng nhau giữa chúng
+space-around : các hạng mục sẽ được trình bày với khoảng cách bằng nhau xung quanh chúng
+baseline: các hạng mục sẽ được hiển thị ở đường cơ bản của hộp chứa.
+stretch: Các hạng mục sẽ được kéo dài để phù hợp với hộp chứa.
+flex-direction : định dạng của item trong flexbox ( mặc định là hàng round)
+               row : cách hạng mục được đặt cùng hướng với hướng của phần tử 
+               row-reverse : các hạng mục đc ngược hướng với hướng của tử trong văn bản
+               column: Hạng mục đc đặt từ trên xuống
+               column-reverse: Hạng mục đc đặt từ dưới lên trên
+order thứ tự   
+ align-self : căn 1 đứa theo trục dọc
+ flex-wrap : tràn phần tử nếu hàng đó không đủ chỗ trống
+              nowrap: Mỗi hạng mục được dồn vào một hàng duy nhất.
+              wrap: Các hạng mục quấn xung quanh để tạo thêm dòng.
+            wrap-reverse: Các hạng mục quấn xung quanh để tạo thêm dòng ngược lại.
+flex-flow : sự kết hợp giữa flex-direction và flex-wrap
+align-content : thu hẹp khoảng cách

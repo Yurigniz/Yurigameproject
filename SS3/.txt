@@ -1,0 +1,8 @@
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css
+position : chỉnh vị trí cho phần tử
+nó có các contribute ( thuộc tính) là
+fixed : cần đúng vị trí phần tử
+relative căn phần tử cha
+padding : căn chỉnh khoảng cách bên trong hộp
+margin : bên ngoài hộp
+
