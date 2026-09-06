@@ -1,0 +1,333 @@
+ html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: #000;
+        font-family:
+          Helvetica Neue,
+          Helvetica,
+          Arial,
+          sans-serif;
+        font-size: 14px;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+      }
+
+      swiper-container {
+        width: 100%;
+        height: 100%;
+      }
+
+      swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #444;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.chapter-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2b2b2b;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #444;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.chapter-link:hover {
+    background-color: #ff4757; /* Hoặc màu chủ đạo của web mày */
+    color: #ffffff;
+    border-color: #ff4757;
+}
+body {
+    background-color: #0f1115;
+    color: #e1e1e1;
+    line-height: 1.6;
+}
+
+/* HEADER STYLE */
+.site-header {
+    background-color: rgba(20, 22, 28, 0.95);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 2px solid #e60000;
+    backdrop-filter: blur(10px);
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.logo a {
+    color: #e60000;
+    font-size: 24px;
+    font-weight: 900;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.main-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.main-nav a:hover {
+    color: #e60000;
+}
+
+/* MAIN BODY & HERO */
+.wiki-body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(180deg, rgba(230,0,0,0.1) 0%, rgba(15,17,21,1) 100%);
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+
+.hero-section h1 {
+    font-size: 40px;
+    color: #fff;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.hero-section p {
+    color: #aaa;
+    font-size: 16px;
+}
+
+/* SECTION CHUNG */
+.wiki-section {
+    margin-bottom: 50px;
+    scroll-margin-top: 80px; /* Dành cho việc bấm link tự cuộn mượt */
+}
+
+.section-title {
+    font-size: 26px;
+    color: #fff;
+    border-left: 5px solid #e60000;
+    padding-left: 12px;
+    margin-bottom: 25px;
+}
+
+/* GRID LAYOUT (Nhân vật & Event) */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #181b22;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #2a2e39;
+    position: relative;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #e60000;
+}
+
+.card-tag {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #e60000;
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.card p {
+    color: #b0b3b8;
+    font-size: 14px;
+}
+
+/* LORE BOX */
+.info-box {
+    background: #181b22;
+    padding: 25px;
+    border-radius: 8px;
+    border-left: 4px solid #ff4d4d;
+}
+
+.info-box h3 {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+/* TIMELINE (Cốt truyện chính) */
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.timeline-item {
+    background: #181b22;
+    padding: 15px 20px;
+    border-radius: 8px;
+    border-left: 3px solid #666;
+}
+
+.timeline-item h4 {
+    color: #e60000;
+    margin-bottom: 5px;
+}
+
+/* FOOTER */
+.site-footer {
+    background-color: #090a0d;
+    text-align: center;
+    padding: 25px 20px;
+    border-top: 1px solid #222;
+    color: #666;
+    font-size: 14px;
+    margin-top: 50px;
+}
+/* Khung card giữ kích thước cũ nhưng chuẩn bị để ảnh tràn full */
+.card-hecate {
+    position: relative;
+    width: 220px;
+    height: 340px; /* Tăng chiều cao lên chút nhìn chuẩn dáng thẻ bài */
+    padding: 0;   /* Bỏ padding để ảnh tràn viền */
+    overflow: hidden;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 0 auto;
+}
+
+/* Ảnh nền tràn 100% khung card */
+.card-bg-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top; /* Căn lấy từ phần đầu xuống */
+    display: block;
+}
+
+/* Lớp phủ đen mờ ở dưới đít card để làm nổi chữ */
+.card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 12px;
+    box-sizing: border-box;
+    /* Đổ màu đen mờ dần từ dưới lên để chữ Hecate dễ đọc */
+    background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.85) 90%);
+}
+
+/* Định vị lại cái Tag A-Rank ở góc trên */
+.card-overlay .card-tag {
+    position: static;
+    align-self: flex-end;
+    background: #e60000;
+    color: #fff;
+    font-size: 11px;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+/* Căn giữa tên Hecate và mã số ở dưới đáy card */
+.card-info {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.card-info h3 {
+    font-size: 22px;
+    color: #ffffff;
+    margin: 0;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.8);
+    font-family: 'Georgia', serif; /* Font hoài cổ chuẩn vibe game */
+}
+
+.sinner-code {
+    font-size: 11px;
+    color: #ccc;
+    letter-spacing: 1px;
+    display: block;
+    margin-top: 2px;
+}
+/* Xóa gạch chân và giữ màu chữ chuẩn cho card dạng link */
+a.card {
+    text-decoration: none;
+    color: inherit;
+    display: block; /* Giữ chuẩn khối cho thẻ a */
+}
+.lore-card-link:hover .read-more {
+    color: #ff4d4d;
+    transform: translateX(4px); /* Hiệu ứng mũi tên nhích sang phải */
+}
+/* RESPONSIVE CHO ĐIỆN THOẠI */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .main-nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+    .hero-section h1 {
+        font-size: 28px;
+    }
+}

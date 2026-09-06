@@ -1,0 +1,7 @@
+git init
+git remote add origin 'git nào đó'
+1 git add.
+2 git commit -m
+git branch -M main
+3 git push origin main
+Những lần sau có chỉnh sửa gì chỉ cần chạy 3 lệnh 1, 2, 3 tuần tự là được

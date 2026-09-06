@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bán Tài Khoản & Nạp Game</title>
+  <!-- Link Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- 1. NAVBAR (Thanh điều hướng) -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <!-- NOTE: [TỰ SỬA] Thay tên Shop hoặc Logo của mày ở đây -->
+      <a class="navbar-brand fw-bold text-warning" href="#">SHOP GAME CỦA TÀI</a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#feature">Tính Năng</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pricing">Bảng Giá</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonial">Đánh Giá</a></li>
+          <li class="nav-item"><a class="nav-link" href="#cta">Liên Hệ</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 2. HEADER / TITLE (Khối giới thiệu đầu trang) -->
+  <header class="bg-primary text-white text-center py-5">
+    <div class="container py-4">
+      <!-- NOTE: [TỰ SỬA] Tiêu đề chính hấp dẫn khách hàng -->
+      <h1 class="display-4 fw-bold">NẠP GAME GIÁ RẺ & BÁN ACC UY TÍN</h1>
+      <!-- NOTE: [TỰ SỬA] Dòng mô tả ngắn -->
+      <p class="lead">Giao dịch tự động 24/7 - An toàn - Bảo hành trọn đời</p>
+      <a href="#pricing" class="btn btn-warning btn-lg mt-3 fw-bold">Xem Bảng Giá Ngay</a>
+    </div>
+  </header>
+
+  <!-- 3. FEATURE (Tính năng / Lợi thế) -->
+  <section id="feature" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5 fw-bold">Tại Sao Chọn Chúng Tôi?</h2>
+      <div class="row g-4 text-center">
+        <div class="col-md-4">
+          <div class="card h-100 p-3 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Nạp Siêu Tốc</h5>
+              <p class="card-text">Xử lý đơn hàng tự động trong 30s sau khi thanh toán.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 p-3 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Giá Tốt Nhất</h5>
+              <p class="card-text">Chiết khấu tới 20% so with giá nạp trực tiếp trong game.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 p-3 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Bảo Hành Rõ Ràng</h5>
+              <!-- NOTE: [TỰ SỬA] Chính sách bảo hành của shop mày -->
+              <p class="card-text">Hoàn tiền 100% nếu acc bị lỗi hoặc bị đền bù gói nạp.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. PRICING (Bảng giá các gói nạp / Bán acc) -->
+  <section id="pricing" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5 fw-bold">Gói Nạp Hot Nhất</h2>
+      <div class="row g-4">
+        <!-- Gói 1 -->
+        <div class="col-md-4">
+          <div class="card text-center border-primary shadow-sm h-100">
+            <div class="card-header bg-primary text-white font-weight-bold">
+              <!-- NOTE: [TỰ SỬA] Tên gói 1 -->
+              <h4>Gói Nhỏ</h4>
+            </div>
+            <div class="card-body">
+              <!-- NOTE: [TỰ SỬA] Giá gói 1 -->
+              <h3 class="card-title">50.000đ</h3>
+              <p class="card-text">Nhận ngay 100 Đá / Quân Huy / Kim Cương</p>
+              <!-- NOTE: [TỰ SỬA] Chèn link Zalo / Messenger của mày vào href -->
+              <a href="https://zalo.me/0123456789" class="btn btn-outline-primary">Mua Ngay</a>
+            </div>
+          </div>
+        </div>
+        <!-- Gói 2 -->
+        <div class="col-md-4">
+          <div class="card text-center border-warning shadow-sm h-100">
+            <div class="card-header bg-warning text-dark font-weight-bold">
+              <!-- NOTE: [TỰ SỬA] Tên gói 2 -->
+              <h4>Gói Vừa</h4>
+            </div>
+            <div class="card-body">
+              <!-- NOTE: [TỰ SỬA] Giá gói 2 -->
+              <h3 class="card-title">200.000đ</h3>
+              <p class="card-text">Nhận ngay 500 Đá + Tặng thêm 50 Đá</p>
+              <!-- NOTE: [TỰ SỬA] Chèn link Zalo / Messenger của mày vào href -->
+              <a href="https://zalo.me/0123456789" class="btn btn-warning">Mua Ngay</a>
+            </div>
+          </div>
+        </div>
+        <!-- Gói 3 -->
+        <div class="col-md-4">
+          <div class="card text-center border-success shadow-sm h-100">
+            <div class="card-header bg-success text-white font-weight-bold">
+              <!-- NOTE: [TỰ SỬA] Tên gói 3 -->
+              <h4>Gói VIP</h4>
+            </div>
+            <div class="card-body">
+              <!-- NOTE: [TỰ SỬA] Giá gói 3 -->
+              <h3 class="card-title">500.000đ</h3>
+              <p class="card-text">Nhận ngay 1500 Đá + Tặng vé VIP Pass</p>
+              <!-- NOTE: [TỰ SỬA] Chèn link Zalo / Messenger của mày vào href -->
+              <a href="https://zalo.me/0123456789" class="btn btn-outline-success">Mua Ngay</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. TESTIMONIAL (Uy tín & Đánh giá) -->
+  <section id="testimonial" class="py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="mb-4 fw-bold">Đánh Giá Từ Khách Hàng</h2>
+      <div class="row justify-content: center">
+        <div class="col-md-8 mx-auto">
+          <div class="p-4 bg-white rounded shadow-sm">
+            <p class="fs-5">⭐⭐⭐⭐⭐</p>
+            <p class="fs-6 text-muted">Hơn 5,000+ giao dịch thành công. Luôn đảm bảo tốc độ và bảo mật cho tài khoản của bạn.</p>
+            <!-- NOTE: [TỰ SỬA] Có thể dán hình chụp màn hình bill đã giao dịch thành công ở đây -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. CALL TO ACTION (Kêu gọi hành động) -->
+  <section id="cta" class="py-5 bg-danger text-white text-center">
+    <div class="container">
+      <h2 class="fw-bold">CẦN NẠP GAME HOẶC MUA ACC NGAY?</h2>
+      <p class="lead">Nhắn tin trực tiếp qua Zalo / Facebook để được hỗ trợ 24/7</p>
+      <!-- NOTE: [TỰ SỬA] Thay link Zalo / Fanpage của mày -->
+      <a href="https://zalo.me/0123456789" class="btn btn-light btn-lg fw-bold text-danger mt-2">Chat Với Shop Ngay</a>
+    </div>
+  </section>
+
+  <!-- 7. FOOTER (Chân trang) -->
+  <footer class="bg-dark text-white py-4 text-center">
+    <div class="container">
+      <!-- NOTE: [TỰ SỬA] SĐT và Địa chỉ của mày -->
+      <p class="mb-1">Shop Game Uy Tín - Hotline/Zalo: 0123.456.789</p>
+      <small class="text-muted">&copy; 2026 Bản quyền thuộc về Shop Game Của Tài.</small>
+    </div>
+  </footer>
+
+  <!-- Link JS Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
